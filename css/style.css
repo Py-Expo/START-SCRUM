@@ -1,0 +1,113 @@
+/* Combine styles from both themes */
+.navbar {
+    background-color: green;
+}
+
+.navbar-brand {
+    color: red!important;
+}
+
+.navbar-nav .nav-link {
+    color: red !important;
+}
+
+.navbar-toggler-icon {
+    background-color: red;
+}
+
+/* Main Form */
+.container.my-4 {
+    position: relative;
+    width:400px;
+    height: 550px;
+    background-repeat: red;
+    border: 2px solid black(255, 255, 255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form-control {
+    background-color: rgba(39, 39, 39, 0.8); /* Adjust opacity for form background */
+    color: white;
+    border-color: #4b4b4b;
+}
+
+.form-control::placeholder {
+    color: #8e8e8e;
+}
+
+.btn-primary {
+    background-color: #F39334;
+    border-color: #F39334;
+}
+
+.btn-danger {
+    background-color: #F8576F;
+    border-color: #F8576F;
+}
+
+/* Results */
+.result-container {
+    text-align: center;
+}
+
+.toggle-button {
+    padding: 4px;
+    margin: 5px 40px 5px 0;
+    font-size: 20px;
+    font-weight: bold;
+    width: 140px;
+    border-radius: 5px;
+    color: black;
+}
+
+/* Modals */
+.modal-header {
+    background-color: #020606 !important;
+    color: white;
+}
+
+.modal-body {
+    background-color: #272727;
+    color: white;
+}
+
+.modal-footer {
+    background-color: #020606 !important;
+}
+
+/* Speech Recognition */
+#startSpeechRecognition {
+    margin-left: 3px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: #F39334;
+}
+
+#transcription {
+    margin-top: 10px;
+    background-color: #272727;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Logo */
+.logo {
+    width: 50px;
+    height: 50px;
+    color: black;
+    margin-top: 0;
+    margin-left: 2px;
+}
+
+.myimg {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
